@@ -19,15 +19,10 @@ Route::get('/', [EventController::class, 'index']);
 Route::get('/events/create', [EventController::class, 'create']);
 
 
-Route::get('/events', function () {
-    return view('events');
+Route::get('/contact', function () {
+    return view('contact');
 });
 
-Route::get('/events', function () {
 
-    $busca = request('search');
-
-    return view('tests', ['busca' => $busca]);
-});
 
 

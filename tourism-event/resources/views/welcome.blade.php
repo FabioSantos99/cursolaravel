@@ -5,26 +5,32 @@
 
 @section('content')
 
-<h1>Alguno titulo</h1>
+<div id="search-container" class="col-md-12">
+    <h1>Busque um evento</h1>
+    <form action="">
+        <input type="text" id="search" class="form-control" placeholder="Procure um evento">
 
+    </form>
+</div>
 
-@if(1 > 3)
-    <p>Condição é true1</p>
-@else
-    <p>Condição é false</p>
-@endif
+<div id="events-container" class="col-md-12">
+    <h2>Proximas Viagens/Eventos</h2>
+    <p>Veja os eventos nos proximos dias</p>
+    <div id="cards-container" class="row">
+        @foreach($events as $event)
+        <div class="card-md-3">
+            <img src="/img/peruMP.jpg" alt="{{ $event->title }}">
+            <div class="cardd col-md-3">
+                <p class="card-date">26/11/2023</p>
+                <h5 class="card-title">{{ $event->title }}</h5>
+                <p class="card-participants">X participantes</p>
+                <a href="#" class="btn btn-primary">Saber Mais</a>
+            </div>
+        </div>
+        @endforeach
 
-<p>{{$nome}}</p>
-<p>{{$idade}}</p>
+    </div>
+</div>
 
-@if($nome == "Pedro")
-    <p>O nome é pedro</p>
-
-@elseif($nome == "Fabio")
-    <p>O nome é {{$nome}} e ele tem {{$idade}}</p>
-
-@else
-    <p>Nome não encontrado</p>
-@endif
 
 @endsection

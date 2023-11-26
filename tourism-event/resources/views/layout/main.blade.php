@@ -18,8 +18,8 @@
       <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                   <div class="collapse navbar-collapse" id="navbar">
-                   <a href="/" class="navbar-brand">
-                        <img src="" alt="TourismEvents">
+                   <a href="/" class="navbar-brand p-3">
+                        <img src="/img/logoTourism.png" alt="TourismEvents">
                    </a>
                    <ul class="navbar-nav">
                         <li class="nav-item">
