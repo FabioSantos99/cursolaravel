@@ -13,7 +13,7 @@
     </form>
 </div>
 
-<div id="events-container" class="col-md-12">
+<div id="events-container" class="">
     <h2>Proximas Viagens/Eventos</h2>
     <p class="subtitle">Veja os eventos nos proximos dias</p>
     <div id="cards-container" class="row">
