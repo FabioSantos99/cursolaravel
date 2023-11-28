@@ -44,9 +44,22 @@
                   </div>
             </nav>
       </header>
-      @yield('content')
+      <main>
+            <div class="container-fluid">
+                  <div class="row">
+
+                        @if(session('msg'))
+                        <p class="msg">{{ session('msg')}}</p>
+                        @endif
+                        @yield('content')
+                        
+                  </div>
+            </div>
+      </main>
      <footer>
       <p>TOURISM &copy; 2023</p>
      </footer> 
+     <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>

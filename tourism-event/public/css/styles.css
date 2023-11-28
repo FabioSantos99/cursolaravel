@@ -28,7 +28,22 @@ header {
 
 .btn-primary {
       background-color: #F2A340;
-      border-color: #C20008;
+      border-color: #C28008;
+}
+
+.btn-primary:hover {
+      background-color: #C28008;
+      border-color: #C28008;
+}
+
+.msg {
+      background-color: #D4EDDA;
+      color: #155724;
+      border: 1px solid #C3E6CB;
+      width: 100%;
+      margin-bottom: 0;
+      text-align: center;
+      padding: 10px;
 }
 
 #navbar img {
@@ -87,15 +102,14 @@ header {
 
 #cards-container {
       display: flex;
-      flex-direction: row-reverse;
 }
 
-#events-container card {
+#events-container .card {
+      flex: 1 1 24%;
       max-width: 25%;
       border-radius: 10px;
       padding: 0;
-      margin: 5px;
-      flex-direction: row;
+      margin: .5%;
 }
 
 #events-container img {
