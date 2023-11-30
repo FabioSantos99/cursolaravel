@@ -1,6 +1,6 @@
 @extends('layout.main')
 
-@section('title', 'TOURISM')
+@section('title', 'Criar Evento')
 
 @section('content')
 
@@ -14,9 +14,16 @@
             </div>
 
 
+
+
             <div class="form-group">
                   <label for="title">Evento:</label>
                   <input type="text" class="form-control" id="title" name="title" placeholder="Nome do Evento">
+            </div>
+
+            <div class="form-group">
+                  <label for="date">Data do evento:</label>
+                  <input type="date" class="form-control" id="date" name="date">
             </div>
 
             <div class="form-group">
@@ -37,6 +44,27 @@
                   <label for="title">Descrição:</label>
                   <textarea name="description" id="description" class="form-control" placeholder="O que vai ter? "></textarea>
             </div>
+
+            <div class="form-group">
+                  <label for="title">Adicione itens de infraestrutura:</label>
+                  <div class="form-group">
+                        <input type="checkbox" name="items[]" value="Passagens"> Passagens
+                  </div>
+
+                  <div class="form-group">
+                        <input type="checkbox" name="items[]" value="Host"> Hospedagens
+                  </div>
+
+                  <div class="form-group">
+                        <input type="checkbox" name="items[]" value="Brindes"> Brindes
+                  </div>
+
+                  <div class="form-group">
+                        <input type="checkbox" name="items[]" value="food"> Comida
+                  </div>
+                 
+            </div>
+
             <input type="submit" class="btn btn-primary" value="criar Viagem">
 
 
