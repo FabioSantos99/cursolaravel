@@ -17,6 +17,13 @@ header {
       border-bottom: 1px solid #ccc;
 }
 
+a {
+
+      text-decoration: none;
+      font-weight: 700;
+}
+
+
 .row {
       margin: 0;
 }
@@ -44,6 +51,17 @@ header {
       margin-bottom: 0;
       text-align: center;
       padding: 10px;
+}
+
+#info-container .already-joined-msg {
+
+      margin: 15px;
+      color: #004085;
+      background-color: #CCE5FF;
+      border: 1px solid #B8DAFF;
+      padding: 10px;
+      width: 274px;
+
 }
 
 #navbar img {
@@ -224,6 +242,17 @@ header {
 .dashboard-events-container th {
 
       width: 25%
+}
+
+.dashboard-events-container form {
+      display: inline-block;
+}
+
+
+/* EDIT PAGE */
+
+.img-preview {
+      width: 100px;
 }
 
 /* footer */
