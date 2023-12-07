@@ -31,6 +31,7 @@ a {
 .container-fluid {
 
       padding: 0;
+      
 }
 
 .btn-primary {
@@ -65,18 +66,20 @@ a {
 }
 
 #navbar img {
-      width: 40px;
+      width: 70px;
 }
 
 #navbar {
       justify-content: space-between;
-      background-color: #fff;
+      background-color: #0757ac;
       padding: 5px 0;
 }
 
 #navbar a {
-      font-size: 14px;
-      color: #757575;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 700;
+      padding-right: 20px;
 
 }
 
@@ -259,7 +262,7 @@ a {
 
 footer {
       text-align: center;
-      background-color: #353E48;
+      background-color: #0757ac;
       color: #fff;
       padding: 30px;
       position: absolute;
