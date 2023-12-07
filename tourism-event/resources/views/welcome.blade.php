@@ -6,7 +6,7 @@
 @section('content')
 
 <div id="search-container" class="col-md-12">
-    <h1>Busque um evento</h1>
+    <h1>Busque Viagens</h1>
     <form action="/" method="GET">
         <input type="text" id="search" name="search" class="form-control" placeholder="Procure um evento">
 
@@ -26,7 +26,7 @@
 
     @endif
 
-    <div id="cards-container" class="row">
+    <div id="cards-container" class="">
         @foreach($events as $event)
             <div class="card col-md-3">
                 <img src="/img/events/{{ $event->image }}" alt="{{ $event->title }}">

@@ -275,3 +275,52 @@ footer p {
 }
 
  
+/* RESPONSIVIDADE */
+
+
+@media (max-width: 420px) {
+
+      /* Welcome Blade */
+
+      #cards-container {
+
+            display: inline-block;
+      }
+
+      #events-container .card {
+
+            flex-direction: column;
+            max-width: 100%;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 15px;
+
+      }
+
+      /* SEARCH CONTAINER */
+      #search-container {
+            background-image:url('/img/Resize-Header-Banff.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            padding: 50px;
+            text-align: center;
+      }
+
+      #search-container h1 {
+
+            color: #0d0d0d;
+            text-shadow: 5px 5px 5px #f6f8fa;
+            margin-bottom: 30px;
+            font-weight: 900;
+
+      }
+
+      #search-container form {
+            width: 70%;
+            margin: 0 auto;
+      }
+
+      
+      
+}
