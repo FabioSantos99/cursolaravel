@@ -18,7 +18,7 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nome</th>
-                <th scope="col">Participantes</th>
+                <th scope="col">Ingressos</th>
                 <th scope="col">Ações</th>
             </tr>
         </thead>
@@ -51,7 +51,7 @@
 
 <div class="col-md-10 offset-md-1 dashboard-title-container">
 
-    <h1>Eventos que estou participando</h1>
+    <h1>Eventos/Viagens que estou participando</h1>
 
 </div>
 
@@ -62,7 +62,7 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nome</th>
-                <th scope="col">Participantes</th>
+                <th scope="col">Ingressos</th>
                 <th scope="col">Ações</th>
             </tr>
         </thead>

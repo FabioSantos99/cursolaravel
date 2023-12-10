@@ -321,6 +321,22 @@ footer p {
             margin: 0 auto;
       }
 
+      /* DASHBOARD */
+
+      .dashboard-title-container {
+
+            margin-bottom: 30px;
+            margin-top: 30px;
+      }
+      
+      .dashboard-events-container th {
+      
+            width: 20%
+      }
+      
+      .dashboard-events-container form {
+            display: inline-flex;
+      }
       
       
 }
